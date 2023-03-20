@@ -1,0 +1,26 @@
+
+.homepage-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage-container .input-container input {
+  font-size: 24px;
+  display: block;
+  background-color: burlywood;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 14px ;
+}
+.homepage-container .input-container button{
+  font-size: 25px;
+  width: 100%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.homepage-container .input-container button :hover{
+  color: red;
+}
